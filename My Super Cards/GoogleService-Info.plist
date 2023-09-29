@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCA7LUZbtboMGVtEaySLpN3zSBlcStuLAI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>740977063109</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.superfamily.My-SuperCards</string>
+	<key>PROJECT_ID</key>
+	<string>my-super-cards</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-super-cards.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:740977063109:ios:e4d4187ff5f24d0a12ecac</string>
+</dict>
+</plist>
