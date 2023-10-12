@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C460E802AC6D14000733BD9 /* My_Super_Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C460E7F2AC6D14000733BD9 /* My_Super_Cards.swift */; };
-		3C460E822AC6D14000733BD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C460E812AC6D14000733BD9 /* ContentView.swift */; };
+		3C460E802AC6D14000733BD9 /* MySuperCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C460E7F2AC6D14000733BD9 /* MySuperCards.swift */; };
+		3C460E822AC6D14000733BD9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C460E812AC6D14000733BD9 /* RegistrationView.swift */; };
 		3C460E842AC6D14100733BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C460E832AC6D14100733BD9 /* Assets.xcassets */; };
 		3C460E872AC6D14100733BD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C460E862AC6D14100733BD9 /* Preview Assets.xcassets */; };
-		3C460E8E2AC6D2FE00733BD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C460E8D2AC6D2FE00733BD9 /* GoogleService-Info.plist */; };
 		3C460E912AC6D86E00733BD9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3C460E902AC6D86E00733BD9 /* FirebaseAuth */; };
 		3C460E932AC6D86E00733BD9 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3C460E922AC6D86E00733BD9 /* FirebaseAuthCombine-Community */; };
 		3C460E952AC6D86E00733BD9 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3C460E942AC6D86E00733BD9 /* FirebaseDatabase */; };
@@ -19,15 +18,51 @@
 		3C460E992AC6D86E00733BD9 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3C460E982AC6D86E00733BD9 /* FirebaseInAppMessaging-Beta */; };
 		3C460E9B2AC6D86E00733BD9 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3C460E9A2AC6D86E00733BD9 /* FirebaseMessaging */; };
 		3C460E9D2AC6D86E00733BD9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3C460E9C2AC6D86E00733BD9 /* FirebaseStorage */; };
+		3C7BCAAC2AC76E8100021B6F /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BCAAA2AC76E8000021B6F /* LoginCoordinator.swift */; };
+		3C7BCAAD2AC76E8100021B6F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BCAAB2AC76E8000021B6F /* LoginView.swift */; };
+		3CA90D062AC6E45E00AE59DE /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA90D052AC6E45E00AE59DE /* FBManager.swift */; };
+		3CA90D082AC763C200AE59DE /* RegistrationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA90D072AC763C100AE59DE /* RegistrationCoordinator.swift */; };
+		3CA90D122AC7686000AE59DE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA90D112AC7686000AE59DE /* Router.swift */; };
+		3CB1ED372ACF11B3008A32E1 /* VerifyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1ED362ACF11B3008A32E1 /* VerifyCoordinator.swift */; };
+		3CB1ED392ACF11C9008A32E1 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1ED382ACF11C9008A32E1 /* VerifyView.swift */; };
+		3CB5D5242AD53E24000EC4E2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D5232AD53E24000EC4E2 /* MainView.swift */; };
+		3CB5D5262AD53E4D000EC4E2 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D5252AD53E4D000EC4E2 /* MainCoordinator.swift */; };
+		3CB5D5292AD541EE000EC4E2 /* MyCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D5282AD541EE000EC4E2 /* MyCardsView.swift */; };
+		3CB5D52B2AD54211000EC4E2 /* MyCardsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D52A2AD54211000EC4E2 /* MyCardsCoordinator.swift */; };
+		3CB5D52E2AD5428E000EC4E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D52D2AD5428E000EC4E2 /* SettingsView.swift */; };
+		3CB5D5302AD542CB000EC4E2 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D52F2AD542CB000EC4E2 /* SettingsCoordinator.swift */; };
+		3CE844C12ACAE515001F850B /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE844C02ACAE515001F850B /* ColorManager.swift */; };
+		3CE844CA2ACB0970001F850B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE844C92ACB0970001F850B /* GoogleSignIn */; };
+		3CE844CD2ACB0AC5001F850B /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE844CC2ACB0AC5001F850B /* SwiftProtobuf */; };
+		3CE844CF2ACB0AC5001F850B /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE844CE2ACB0AC5001F850B /* SwiftProtobufPluginLibrary */; };
+		3CE844D12ACB0AC5001F850B /* protoc-gen-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE844D02ACB0AC5001F850B /* protoc-gen-swift */; };
+		3CE844D22ACB0B5B001F850B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CE844C62ACB03FB001F850B /* GoogleService-Info.plist */; };
+		3CE844D52ACB663C001F850B /* registration super cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE844D42ACB663C001F850B /* registration super cards.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C460E7C2AC6D14000733BD9 /* My Super Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Super Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C460E7F2AC6D14000733BD9 /* My_Super_Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Super_Cards.swift; sourceTree = "<group>"; };
-		3C460E812AC6D14000733BD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C460E7F2AC6D14000733BD9 /* MySuperCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySuperCards.swift; sourceTree = "<group>"; };
+		3C460E812AC6D14000733BD9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		3C460E832AC6D14100733BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C460E862AC6D14100733BD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3C460E8D2AC6D2FE00733BD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C7BCAAA2AC76E8000021B6F /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		3C7BCAAB2AC76E8000021B6F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3CA90D052AC6E45E00AE59DE /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		3CA90D072AC763C100AE59DE /* RegistrationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinator.swift; sourceTree = "<group>"; };
+		3CA90D112AC7686000AE59DE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3CB1ED362ACF11B3008A32E1 /* VerifyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCoordinator.swift; sourceTree = "<group>"; };
+		3CB1ED382ACF11C9008A32E1 /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		3CB5D5232AD53E24000EC4E2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3CB5D5252AD53E4D000EC4E2 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		3CB5D5282AD541EE000EC4E2 /* MyCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsView.swift; sourceTree = "<group>"; };
+		3CB5D52A2AD54211000EC4E2 /* MyCardsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsCoordinator.swift; sourceTree = "<group>"; };
+		3CB5D52D2AD5428E000EC4E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3CB5D52F2AD542CB000EC4E2 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		3CE844C02ACAE515001F850B /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		3CE844C62ACB03FB001F850B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CE844D32ACB0DFC001F850B /* My-Super-Cards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Super-Cards-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3CE844D42ACB663C001F850B /* registration super cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "registration super cards.png"; path = "../../Downloads/registration super cards.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,12 +71,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C460E9B2AC6D86E00733BD9 /* FirebaseMessaging in Frameworks */,
+				3CE844CA2ACB0970001F850B /* GoogleSignIn in Frameworks */,
+				3CE844D12ACB0AC5001F850B /* protoc-gen-swift in Frameworks */,
+				3CE844CF2ACB0AC5001F850B /* SwiftProtobufPluginLibrary in Frameworks */,
 				3C460E952AC6D86E00733BD9 /* FirebaseDatabase in Frameworks */,
 				3C460E972AC6D86E00733BD9 /* FirebaseFirestore in Frameworks */,
 				3C460E912AC6D86E00733BD9 /* FirebaseAuth in Frameworks */,
 				3C460E9D2AC6D86E00733BD9 /* FirebaseStorage in Frameworks */,
 				3C460E932AC6D86E00733BD9 /* FirebaseAuthCombine-Community in Frameworks */,
 				3C460E992AC6D86E00733BD9 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				3CE844CD2ACB0AC5001F850B /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +92,7 @@
 			children = (
 				3C460E7E2AC6D14000733BD9 /* My Super Cards */,
 				3C460E7D2AC6D14000733BD9 /* Products */,
+				3CE844C82ACB0970001F850B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,10 +107,13 @@
 		3C460E7E2AC6D14000733BD9 /* My Super Cards */ = {
 			isa = PBXGroup;
 			children = (
-				3C460E8D2AC6D2FE00733BD9 /* GoogleService-Info.plist */,
-				3C460E7F2AC6D14000733BD9 /* My_Super_Cards.swift */,
-				3C460E812AC6D14000733BD9 /* ContentView.swift */,
+				3CE844D32ACB0DFC001F850B /* My-Super-Cards-Info.plist */,
+				3CA90D0C2AC767D000AE59DE /* Navigation */,
+				3CA90D0A2AC7640B00AE59DE /* Screens */,
+				3CA90D092AC763F300AE59DE /* Services */,
 				3C460E832AC6D14100733BD9 /* Assets.xcassets */,
+				3CE844D42ACB663C001F850B /* registration super cards.png */,
+				3CE844C62ACB03FB001F850B /* GoogleService-Info.plist */,
 				3C460E852AC6D14100733BD9 /* Preview Content */,
 			);
 			path = "My Super Cards";
@@ -82,6 +125,98 @@
 				3C460E862AC6D14100733BD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C7BCAA92AC76E1500021B6F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BCAAB2AC76E8000021B6F /* LoginView.swift */,
+				3C7BCAAA2AC76E8000021B6F /* LoginCoordinator.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3CA90D092AC763F300AE59DE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3CA90D052AC6E45E00AE59DE /* FBManager.swift */,
+				3CE844C02ACAE515001F850B /* ColorManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3CA90D0A2AC7640B00AE59DE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5D52C2AD5426E000EC4E2 /* Settings */,
+				3CB5D5272AD541B2000EC4E2 /* MyCards */,
+				3CB5D5222AD53E0B000EC4E2 /* Main */,
+				3CB1ED352ACF1158008A32E1 /* Verify */,
+				3C7BCAA92AC76E1500021B6F /* Login */,
+				3CA90D0B2AC7645B00AE59DE /* Auth */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3CA90D0B2AC7645B00AE59DE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3C460E812AC6D14000733BD9 /* RegistrationView.swift */,
+				3CA90D072AC763C100AE59DE /* RegistrationCoordinator.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3CA90D0C2AC767D000AE59DE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3C460E7F2AC6D14000733BD9 /* MySuperCards.swift */,
+				3CA90D112AC7686000AE59DE /* Router.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3CB1ED352ACF1158008A32E1 /* Verify */ = {
+			isa = PBXGroup;
+			children = (
+				3CB1ED382ACF11C9008A32E1 /* VerifyView.swift */,
+				3CB1ED362ACF11B3008A32E1 /* VerifyCoordinator.swift */,
+			);
+			path = Verify;
+			sourceTree = "<group>";
+		};
+		3CB5D5222AD53E0B000EC4E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5D5232AD53E24000EC4E2 /* MainView.swift */,
+				3CB5D5252AD53E4D000EC4E2 /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3CB5D5272AD541B2000EC4E2 /* MyCards */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5D5282AD541EE000EC4E2 /* MyCardsView.swift */,
+				3CB5D52A2AD54211000EC4E2 /* MyCardsCoordinator.swift */,
+			);
+			path = MyCards;
+			sourceTree = "<group>";
+		};
+		3CB5D52C2AD5426E000EC4E2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5D52D2AD5428E000EC4E2 /* SettingsView.swift */,
+				3CB5D52F2AD542CB000EC4E2 /* SettingsCoordinator.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3CE844C82ACB0970001F850B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +243,10 @@
 				3C460E982AC6D86E00733BD9 /* FirebaseInAppMessaging-Beta */,
 				3C460E9A2AC6D86E00733BD9 /* FirebaseMessaging */,
 				3C460E9C2AC6D86E00733BD9 /* FirebaseStorage */,
+				3CE844C92ACB0970001F850B /* GoogleSignIn */,
+				3CE844CC2ACB0AC5001F850B /* SwiftProtobuf */,
+				3CE844CE2ACB0AC5001F850B /* SwiftProtobufPluginLibrary */,
+				3CE844D02ACB0AC5001F850B /* protoc-gen-swift */,
 			);
 			productName = "My Super Cards";
 			productReference = 3C460E7C2AC6D14000733BD9 /* My Super Cards.app */;
@@ -135,10 +274,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 3C460E732AC6D14000733BD9;
 			packageReferences = (
 				3C460E8F2AC6D86E00733BD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3CE844C72ACB07E9001F850B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				3CE844CB2ACB0AC5001F850B /* XCRemoteSwiftPackageReference "swift-protobuf" */,
 			);
 			productRefGroup = 3C460E7D2AC6D14000733BD9 /* Products */;
 			projectDirPath = "";
@@ -156,7 +298,8 @@
 			files = (
 				3C460E872AC6D14100733BD9 /* Preview Assets.xcassets in Resources */,
 				3C460E842AC6D14100733BD9 /* Assets.xcassets in Resources */,
-				3C460E8E2AC6D2FE00733BD9 /* GoogleService-Info.plist in Resources */,
+				3CE844D52ACB663C001F850B /* registration super cards.png in Resources */,
+				3CE844D22ACB0B5B001F850B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +310,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C460E822AC6D14000733BD9 /* ContentView.swift in Sources */,
-				3C460E802AC6D14000733BD9 /* My_Super_Cards.swift in Sources */,
+				3CB5D52E2AD5428E000EC4E2 /* SettingsView.swift in Sources */,
+				3CB5D5292AD541EE000EC4E2 /* MyCardsView.swift in Sources */,
+				3C460E822AC6D14000733BD9 /* RegistrationView.swift in Sources */,
+				3CE844C12ACAE515001F850B /* ColorManager.swift in Sources */,
+				3CB1ED392ACF11C9008A32E1 /* VerifyView.swift in Sources */,
+				3C7BCAAD2AC76E8100021B6F /* LoginView.swift in Sources */,
+				3CB5D5262AD53E4D000EC4E2 /* MainCoordinator.swift in Sources */,
+				3CB1ED372ACF11B3008A32E1 /* VerifyCoordinator.swift in Sources */,
+				3CB5D52B2AD54211000EC4E2 /* MyCardsCoordinator.swift in Sources */,
+				3CB5D5302AD542CB000EC4E2 /* SettingsCoordinator.swift in Sources */,
+				3CA90D062AC6E45E00AE59DE /* FBManager.swift in Sources */,
+				3CA90D122AC7686000AE59DE /* Router.swift in Sources */,
+				3CB5D5242AD53E24000EC4E2 /* MainView.swift in Sources */,
+				3CA90D082AC763C200AE59DE /* RegistrationCoordinator.swift in Sources */,
+				3C7BCAAC2AC76E8100021B6F /* LoginCoordinator.swift in Sources */,
+				3C460E802AC6D14000733BD9 /* MySuperCards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +457,7 @@
 				DEVELOPMENT_TEAM = S2PVU888XT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Super-Cards-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,6 +487,7 @@
 				DEVELOPMENT_TEAM = S2PVU888XT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Super-Cards-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -379,6 +538,23 @@
 				minimumVersion = 9.6.0;
 			};
 		};
+		3CE844C72ACB07E9001F850B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		3CE844CB2ACB0AC5001F850B /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 2.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -416,6 +592,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3C460E8F2AC6D86E00733BD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		3CE844C92ACB0970001F850B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CE844C72ACB07E9001F850B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3CE844CC2ACB0AC5001F850B /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CE844CB2ACB0AC5001F850B /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		3CE844CE2ACB0AC5001F850B /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CE844CB2ACB0AC5001F850B /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		3CE844D02ACB0AC5001F850B /* protoc-gen-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CE844CB2ACB0AC5001F850B /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = "protoc-gen-swift";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
